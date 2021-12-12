@@ -9,11 +9,14 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 /resources/public/js
-/public/js
 /out
 /.repl
 *.log
 /.env
+.clj-kondo/
+.lsp/
+.shadow-cljs/
 
 # JS
 node_modules/
+dist/
